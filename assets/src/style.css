@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    font-family: sans-serif;
+}
+
+.container #header {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.container #header nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.container #header nav .nav-links {
+    position: relative;
+}
+
+.container #header nav .nav-links  ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    font-size: 18px;
+}
+
+.container #header nav .nav-links  ul li a {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.container #hero {
+    position: relative;
+}
+
+.container #hero section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10% 0;
+    justify-content: flex-start;
+    gap: 3%;
+}
+
+.container #hero section .hero-left {
+    width: 48%;
+}
+
+.container #hero section .hero-left h2 {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.container #hero section .hero-left p {
+    font-size: 23px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container #hero section .hero-left .get-started {
+    background-color: black;
+    width: 35%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.container #hero section .hero-left .get-started a {
+    color: white;
+    font-size: 18px;
+}
+
+.container #services {
+    background-color: gray;
+    /* position: relative; */
+}
+
+.container #services section {
+    width: 90%;
+    margin: auto;
+    padding: 5% 0 2% 0;
+}
+
+.container #services section .service-heading {
+    padding-bottom: 45px;
+    text-align: center;
+    padding: 4%;
+}
+
+.container #services section .service-heading h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.container #services section .service-heading p {
+    font-size: 20px;
+}
+
+.container #services section .box-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container #services section .box-container .box {
+    background-color: white;
+    padding: 10% 2% 3% 2%;
+    width: 27%;
+    margin-bottom: 5%;
+}
+
+.container #services section .box-container .box p {
+    margin-bottom: 40px;
+    text-wrap: wrap;
+    text-align: justify;
+}
+
+.container #services section .box-container .box-color h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.container #services section .box-container a {
+    color: green;
+}
+
+#box2 {
+    position: relative;
+    top: 200px;
+    text-align: left;
+}
+
+#left {
+    margin-bottom: 20px;
+}
